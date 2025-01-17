@@ -1,31 +1,30 @@
 # p5rb_template
 
-p5rb_templateは、[p5.rb](https://github.com/ongaeshi/p5rb) を使ったプロジェクトを PC 上で開発するためのテンプレートです。
+p5rb_template is a template for developing projects using [p5.rb](https://github.com/ongaeshi/p5rb) on your PC.
 
-## インストール
+## Installation
 
-以下のコマンドを使用してリポジトリをクローンします。  
-もしくは zip アーカイブをダウンロードします。
+Clone the repository using the following command or download the zip archive.
 
 ```sh
 git clone https://github.com/ongaeshi/p5rb_template.git
 cd p5rb_template
 ```
 
-## 使用方法
+## Usage
 
-プロジェクトのルートディレクトリ上で Web サーバを起動してブラウザで開いてください。
+Start a web server in the root directory of the project and open it in your browser.
 
-## Ruby を使用する場合
+## Using Ruby
 
 ```sh
 ruby -run -e httpd . -p 3000
 ```
 
-その後、ブラウザで `http://localhost:3000` を開いてプロジェクトを確認します。
+Then open `http://localhost:3000` in your browser to view the project.
 
 ## VSCode
 
-VSCode を使用している場合は、[Live Preview 拡張](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server)を使用してプロジェクトをプレビューすることができます。
+If you are using VSCode, you can preview the project using the [Live Preview extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server).
 
 - [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server)
