@@ -2,6 +2,8 @@
 
 p5rb_templateは、[p5.rb](https://github.com/ongaeshi/p5rb) を使ったプロジェクトを PC 上で開発するためのテンプレートです。
 
+![image](https://github.com/user-attachments/assets/46c3616c-4deb-44ec-bd78-e3f5bee56331)
+
 ## インストール
 
 以下のコマンドを使用してリポジトリをクローンします。  

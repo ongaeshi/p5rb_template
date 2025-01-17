@@ -2,6 +2,8 @@
 
 p5rb_template is a template for developing projects using [p5.rb](https://github.com/ongaeshi/p5rb) on your PC.
 
+![image](https://github.com/user-attachments/assets/46c3616c-4deb-44ec-bd78-e3f5bee56331)
+
 ## Installation
 
 Clone the repository using the following command or download the zip archive.
