@@ -34,7 +34,6 @@
       // Error handling
       const consoleElement = document.getElementById('console');
       function logError(message, source, lineno, colno, error) {
-        console.log("************************* ERROR!! *************************");
         const errorMessage = `${message} at ${source}:${lineno}:${colno}\n${error ? error.stack : ''}`;
         consoleElement.textContent += errorMessage + '\n';
         consoleElement.scrollTop = consoleElement.scrollHeight;
