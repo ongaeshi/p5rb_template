@@ -5,6 +5,15 @@
     <script type="text/ruby" src="lib/p5.rb"></script>
     <script type="text/ruby" src="main.rb"></script>
     <script type="text/ruby">P5::init</script>
+    <script>
+      const ws = new WebSocket('ws://' + location.host + '/ws');
+      ws.onmessage = function(event) {
+        const message = JSON.parse(event.data);
+        if (message.action === 'reload') {
+          P5.init();
+        }
+      };
+    </script>
   </head>
   <body>
     <main>
